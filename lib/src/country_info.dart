@@ -758,6 +758,22 @@ const Map<String, Map<String, String>> codesInfo = {
     'name': 'Saint Helena',
     'dial_code': '+290',
   },
+  'SX': {
+    'name': 'Sint Maarten',
+    'dial_code': '+599',
+  },
+  'EH': {
+    'name': 'Western Sahara',
+    'dial_code': '+212',
+  },
+  'CW': {
+    'name': 'Curaçao',
+    'dial_code': '+599',
+  },
+  'BQ': {
+    'name': 'Caribbean Netherlands',
+    'dial_code': '+599',
+  },
   'KN': {
     'name': 'Saint Kitts and Nevis',
     'dial_code': '+1869',
@@ -957,6 +973,10 @@ const Map<String, Map<String, String>> codesInfo = {
   'UY': {
     'name': 'Uruguay',
     'dial_code': '+598',
+  },
+  'UM': {
+    'name': 'US Minor Outlying Islands',
+    'dial_code': '+246',
   },
   'UZ': {
     'name': 'O‘zbekiston',
