@@ -5,6 +5,10 @@ void main() {
   print(CountryCode.US.alpha3); // -> USA
   print(CountryCode.US.numeric); // -> 840
   print(CountryCode.US.symbol); // -> 🇺🇸
+  print(CountryCode.US.dialCode); // -> +1
+  print(CountryCode.US.localizedName); // -> United States
+  print(CountryCode.DE.localizedName); // -> Deutschland
+  print(CountryCode.UA.localizedName); // -> Україна
 
   // The list of ISO-assigned codes are in CountryCode.values
   final list = CountryCode.values.map<String>((c) => c.alpha2).join(', ');

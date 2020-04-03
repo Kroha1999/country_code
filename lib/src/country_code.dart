@@ -85,7 +85,7 @@ class CountryCode {
   }
 
   /// Return translated to original language country name.
-  String get name {
+  String get localizedName {
     final alpha2code = alpha2;
     return alpha2 == null || codesInfo[alpha2code] == null
         ? ''

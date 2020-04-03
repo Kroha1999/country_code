@@ -7,3 +7,7 @@ accessible through `values` list.
 - added `index` getter to match enum behaviour
 - added `symbol`  getter
 
+## 0.3.0
+- Refactor
+- added dial codes for standart county codes
+- added localized names for standart country codes

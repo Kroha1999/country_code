@@ -1,13 +1,12 @@
 List of ISO 3166-1 assigned country codes.
 
-[![pub package](https://img.shields.io/pub/v/country_code.svg)](https://pub.dartlang.org/packages/country_code)
-[![Build Status](https://travis-ci.org/denixport/dart.country.svg?branch=master)](https://travis-ci.org/denixport/dart.country)
-![License](https://img.shields.io/github/license/denixport/dart.country.svg)
 
 ## Features
 * [x] ISO 3166-1 alpha-2. alpha-3, and numeric country codes in enum-like class
-* [x] Parsing of country codes from string
 * [x] Support for [user-assigned code elements](https://en.wikipedia.org/wiki/ISO_3166-1#Reserved_and_user-assigned_code_elements)
+* [x] Parsing of country codes from string
+* [x] Localized country names
+* [x] Country dial codes
 
 
 ## Usage
@@ -20,13 +19,15 @@ if (code == CountryCode.US) {
   print(code.alpha2);
   print(code.alpha3);
   print(code.numeric);
+  print(code.dialCode);
+  print(code.localizedName);
 }
 ```
-[See more examples](https://github.com/denixport/dart.country/tree/master/example)
+[See more examples](https://github.com/bohdan1krokhmaliuk/dart.country/tree/master/example)
 
 
 ## Bugs and feature requests
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: https://github.com/denixport/dart.country/issues
+[tracker]: https://github.com/bohdan1krokhmaliuk/dart.country/issues
